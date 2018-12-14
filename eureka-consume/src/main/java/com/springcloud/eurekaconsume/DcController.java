@@ -34,7 +34,7 @@ public class DcController {
     }
 
     @GetMapping("/consumerHy")
-    public String hyDc() {
+    public String hystricDc() {
         return consumerService.consumer();
     }
 
